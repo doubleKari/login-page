@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link href="output.css" rel="stylesheet" />
+  </head>
+  <body
+    class="flex flex-col bg-gradient-to-r from-blue-500 via-cyan-400 to-blue-500 text-white"
+  >
+    <header
+      class="font-poppins flex justify-end items-center py-5 px-10 bg-sky-500 text-white shadow-lg"
+    >
+      <!-- menu icon -->
+      <div class="w-8 h-8 mr-auto lg:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth="{1.5}"
+          stroke="currentColor"
+          className="w-6 h-6"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12"
+          />
+        </svg>
+      </div>
+      <nav class="flex space-x-8 justify-center items-center">
+        <!-- nav-links -->
+
+        <ul
+          class="lg:flex space-x-9 justify-center items-center uppercase hidden"
+        >
+          <li class="hover:font-bold cursor"><a href="#">Home</a></li>
+          <li class="hover:font-bold cursor"><a href="#">Login</a></li>
+          <li class="hover:font-bold cursor"><a href="#">Sign up</a></li>
+          <li class="hover:font-bold cursor"><a href="#">About</a></li>
+        </ul>
+
+        <!-- More button -->
+        <div class="w-10 h-10 flex lg:flex justify-center items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z"
+            />
+          </svg>
+        </div>
+      </nav>
+    </header>
+
+    <main class="flex justify-center items-center">
+      <!-- Main content -->
+      <div class="hero-section flex flex-col justify-center items-center">
+        <div class="w-56 h-56 p-10">
+          <img
+            class="w-full h-full object-center object-cover"
+            src="./images/lock-icon.png"
+            alt="titanium-lock"
+          />
+        </div>
+        <h1
+          class="font-poppins uppercase font-extrabold text-lg tracking-wider -mt-8 mb-8"
+        >
+          Titanium Locks
+        </h1>
+        <p class="w-72 text-center mb-12 font-nanum text-[12px] font-[500]">
+          The perfect web system to store all your confidentialities. Very
+          affordable and secure.
+        </p>
+
+        <!-- login-button -->
+        <div
+          class="flex flex-col justify-center items-center font-poppins pb-12"
+        >
+          <button
+            class="rounded-full bg-sky-500 px-6 py-2 text-white shadow-lg uppercase text-sm"
+          >
+            Login
+          </button>
+          <p>
+            <a href="#" class="text-[11px] text-white/60"
+              >Don't have an account?</a
+            >
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer
+      class="font-poppins text-[12px] flex flex-col justify-center items-center text-center text-white/90"
+    >
+      <p>Brought to you by Ezekiel Obuobisa</p>
+      <p>Samuel Quarshie</p>
+    </footer>
+  </body>
+</html>
